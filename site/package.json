@@ -10,27 +10,32 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^2.2.10",
-    "@tanstack/react-query": "^5.90.12",
-    "date-fns": "^4.1.0",
-    "lucide-react": "^0.561.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "viem": "^2.42.0",
-    "wagmi": "^2.19.5"
+    "@rainbow-me/rainbowkit": "2.2.11",
+    "@tanstack/react-query": "5.101.0",
+    "date-fns": "4.4.0",
+    "lucide-react": "0.561.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "viem": "2.52.2",
+    "wagmi": "2.19.5"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@types/node": "^24.10.1",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-    "eslint": "^9.39.1",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
-    "globals": "^16.5.0",
-    "typescript": "~5.9.3",
-    "typescript-eslint": "^8.46.4",
-    "vite": "^7.2.4"
+    "@eslint/js": "9.39.4",
+    "@types/node": "24.13.0",
+    "@types/react": "19.2.16",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "eslint": "9.39.4",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-refresh": "0.4.26",
+    "globals": "16.5.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.60.1",
+    "vite": "7.3.5"
+  },
+  "overrides": {
+    "uuid": "11.1.1",
+    "ws": "8.21.0",
+    "viem": "$viem"
   }
 }
