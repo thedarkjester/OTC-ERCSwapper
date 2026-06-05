@@ -5,6 +5,7 @@ cache
 lib/forge-std/
 cache_forge
 out
+site/dist
 
 # VS Code files for those working on multiple tools
 .vscode/*
